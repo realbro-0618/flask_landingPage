@@ -6,6 +6,7 @@ app = Flask(__name__)
 def default():
 	return render_template("index.html")
 
+#test
 @app.route("/main")
 def main():
 	return render_template("main.html")
